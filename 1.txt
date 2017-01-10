@@ -1,0 +1,18 @@
+const int a=1;
+int b;
+const int c=2;
+int square(int x,int y,int h)
+{
+	int s;
+	s = (x + y)*h/2;
+	return (s);
+}
+
+void main()
+{
+	int x,y,h;
+	scanf(x,y);
+	scanf(y)
+	scanf(h);
+	printf(square(x,y,h));
+}

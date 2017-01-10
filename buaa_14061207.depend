@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1482838177 source:e:\project\complier\buaa_14061207\lexer.cpp
+	<iostream>
+	"stdio.h"
+	"define.h"
+	<cstring>
+	"error.h"
+
+1480869827 e:\project\complier\buaa_14061207\define.h
+	<iostream>
+
+1482865869 source:e:\project\complier\buaa_14061207\main.cpp
+	<iostream>
+	"stdio.h"
+
+1482844859 source:e:\project\complier\buaa_14061207\parse.cpp
+	<stdio.h>
+	<tchar.h>
+	<iostream>
+	<string>
+	<string.h>
+	<stdlib.h>
+	"define.h"
+
+1478707307 e:\project\complier\buaa_14061207\error.h
+	<iostream>
+	<string>
+
+1482892644 source:e:\project\complier\buaa_14061207\asm.cpp
+	"define.h"
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+	<cstring>
+
+1483439505 source:e:\project\complier\buaa_14061207\optimize.cpp
+	"define.h"
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<cstring>
+

@@ -1,0 +1,36 @@
+//////////flow0//////////
+/////block0/////0  0
+const,	int,	1,	a;
+int,	 ,	 ,	b;
+//////////flow1//////////
+/////block0/////1  0
+start,	int,	 ,	square;
+/////block1/////2  0
+para,	int,	0,	x;
+para,	int,	0,	y;
+para,	int,	0,	h;
+int,	 ,	 ,	s;
+add,	x,	y,	$0;
+imul,	$0,	h,	$1;
+idiv,	$1,	2,	$2;
+mov,	$2,	 ,	s;
+ret,	 ,	 ,	s;
+/////block2/////0  0
+end,	 ,	 ,	square;
+//////////flow2//////////
+/////block0/////1  0
+start,	 ,	 ,	main;
+/////block1/////0  0
+int,	 ,	 ,	x;
+int,	 ,	 ,	y;
+int,	 ,	 ,	h;
+scanf,	int,	 ,	x;
+scanf,	int,	 ,	y;
+scanf,	int,	 ,	y;
+scanf,	int,	 ,	h;
+para,	 ,	1,	x;
+para,	 ,	1,	y;
+para,	 ,	1,	h;
+call,	square,	int,	$0;
+printf,	,	$0,	 ;
+end,	 ,	 ,	main;
